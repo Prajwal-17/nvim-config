@@ -27,7 +27,7 @@ return {
           -- Format on demand keymap
           bufmap("n", "<leader>cf", function()
             vim.lsp.buf.format({ async = true })
-          end)
+          end, { desc = "Format" })
         end,
       })
     end,
