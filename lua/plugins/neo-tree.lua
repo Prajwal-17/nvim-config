@@ -24,8 +24,9 @@ return {
     },
   },
   keys = {
+    { "<leader>E", ":Neotree filesystem reveal left<CR>", silent = true, desc = "File Explorer (cwd)" },
     -- { "<leader>w", ":Neotree toggle float<CR>", silent = true, desc = "Float File Explorer" },
-    { "<leader>e", ":Neotree toggle position=left<CR>", silent = true, desc = "Left File Explorer" },
+    { "<leader>e", ":Neotree toggle position=left<CR>", silent = true, desc = "File Explorer (root dir)" },
     --{ "<leader>ngs", ":Neotree float git_status<CR>", silent = true, desc = "Git Status" },
   },
   config = function()
