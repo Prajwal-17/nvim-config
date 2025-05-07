@@ -12,8 +12,10 @@ return {
         sources = {
           -- Formatter
           nls.builtins.formatting.prettier,
-          -- Linter
-          require("none-ls.diagnostics.eslint_d"),
+
+          -- Linter (eslint)
+          --require("none-ls.diagnostics.eslint_d"),  -- Disabled to prevent errors ,here ESLint runs without a config file.
+
           -- Add stylua if editing Lua
           nls.builtins.formatting.stylua,
           -- To add new sources, include them here:
